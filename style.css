@@ -1,0 +1,67 @@
+.heading-text{
+    text-align: center;
+}
+.container{
+    background: linear-gradient(90deg, rgb(0, 128, 102) 0%, rgb(80, 75, 83) 100%);
+    height: 70vh;
+    padding-top: 5%;
+    padding-left: -10%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border:1px solid #1cd40b;
+    
+}
+.container button{
+    width: 15%;
+    height: 8vh;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.container button:hover{
+    width: 15%;
+    font-size: 20px;
+    border-radius: 100px;
+    height: 8vh;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black;
+    background-color: greenyellow;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #1cd40b,
+    1px 2px 1px #46870d,
+    1px 3px 1px  #46870d,
+    1px 4px 1px  #46870d,
+    1px 5px 1px  #46870d,
+    1px 18px 6px rgba(66, 133, 8, 0.4),
+    1px 22px 10px rgba(111, 227, 17, 0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4); 
+   
+}
+.card-layout1{
+    border-right: 2px solid white;
+    margin-bottom: 20px;
+}
+.card-layout1:hover{
+    border-right: 2px solid greenyellow;
+    margin-bottom: 20px;
+    
+}
+input{
+  padding: 30px;
+  width: 70%;
+}
+#result{
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    text-align: center; 
+    font-size: 25px; 
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 100px;
+}
